@@ -53,14 +53,15 @@ is_double($height); // true
 // 9. Check if variable is defined
 var_dump(isset($name));
 var_dump(isset($name2));
+var_dump(isset($salary));
 echo '<br>';
 
 // 10. Constants
 define('PI', 3.14);
-echo PI.'<br>';
+echo PI . '<br>';
 var_dump(defined('PI')); // defined(PI2)
 echo '<br>';
 
 // 12. Using PHP built-in constants
-echo SORT_ASC.'<br>';
-echo PHP_INT_MAX.'<br>';
+echo SORT_ASC . '<br>';
+echo PHP_INT_MAX . '<br>';
